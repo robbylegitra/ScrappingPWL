@@ -1,0 +1,81 @@
+.card {
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 30px;
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-right: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #EEEEEE;
+}
+p {
+  font-weight: bold;
+  color: black;
+}
+ul{
+  color: white;
+}
+.card:hover {
+  box-shadow: 0px 5px grey;
+  background-color: #61dafb;
+}
+.image {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  box-shadow: 0px 1px grey;
+}
+.title,
+.source {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+.title:hover,
+.source:hover {
+  color: white;
+}
+.container {
+  text-align: center;
+  background-color: black;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
